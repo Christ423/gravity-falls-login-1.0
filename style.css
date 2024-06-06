@@ -1,0 +1,96 @@
+.hola{
+    color: #6A1B4D;
+    color: #a92342;
+    color: #A63B3F;
+    color: #D7A051;
+    color: #d08e9d;
+    
+}
+
+@font-face{
+    font-family: 'gravity';
+    src: url('gravitation_falls.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(135deg,#6A1B4D,#a92342);
+    font-family:'gravity';
+    font-weight: 100;
+    color: #d08e9d;
+    text-shadow: 1px 6px 1px #6A1B4D;
+    
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.square1{
+    background: url('bill.png')center/cover no-repeat;
+}
+
+.square,.square1{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    padding: 20px 60px;
+    border: 2px solid #D7A051;
+    box-shadow: 0px 15px 35px #A63B3F;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login{
+    margin-left: -4px;
+    border-left: none;
+    box-shadow: 15px 15px 35px #ba464a95;
+}
+
+h1{
+    text-align: center;
+    font-family: 'gravity';
+    font-size: 24px;
+    color: #D7A051;
+    letter-spacing: 1px;
+    text-shadow: 1px 6px 1px #6A1B4D;;
+}
+
+label{
+    font-size: 20px;
+    line-height: 37px;
+    display: block;
+}
+input,select{
+    width: 100%;
+    padding: 6px 8px;
+    border-radius: 8px;
+    background-color: #601043;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    border: 2px solid #d1bc9e;
+}
+
+select{
+    color: white;
+}
+
+.checkbox{
+    width: auto;
+    height: 11px;
+    margin-bottom: 50px;
+}
+
+.submit{
+    width: 50%;
+    padding: 15px;
+    margin-left: 90px;
+    color: #a9b320;
+    font-family: 'gravity';
+    
+    font-size: 25px;
+}
+
